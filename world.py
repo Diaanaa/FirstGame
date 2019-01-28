@@ -26,7 +26,7 @@ class World:
 
         for i in rooms:
             whole = room.Room(i)
-            if
+           
 
 
 
