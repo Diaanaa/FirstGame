@@ -1,5 +1,10 @@
 class Room:
 
-    def __init__(self, number_of_rooms):
-        self.number = number_of_rooms
+    def __init__(self, number):
+
+        self.number = number
+        self.owner = None
+        self.objects = {}
+        self.ways = []
         
+       
